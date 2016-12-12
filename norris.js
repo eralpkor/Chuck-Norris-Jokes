@@ -4,7 +4,7 @@ var button = document.querySelector("button");
 function getQuote() {
 	
 	var request = new XMLHttpRequest();
-		request.open('GET', 'http://api.icndb.com/jokes/random/', true);
+		request.open('GET', 'https://crossorigin.me/http://api.icndb.com/jokes/random/', true);
 		request.send();
 	request.onload = function(){
 		
