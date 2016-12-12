@@ -1,3 +1,4 @@
+@import 'https://fonts.googleapis.com/css?family=Dancing+Script';
 body{
 	font-family: 'Lato', sans-serif;
 	background: #ee0979; /* fallback for old browsers */
@@ -18,6 +19,13 @@ h1{
 	width: 90%;
 	margin: auto;
 	padding: 10px;
+}
+.me{
+	font-family: 'Dancing Script', cursive;
+	color: black;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
 }
 p{
 	height: 200px;
