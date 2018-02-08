@@ -4,7 +4,7 @@ var quotes = document.getElementById("quotes");
 function getQuote() {
 	
 	var request = new XMLHttpRequest();
-		request.open('GET', 'http://api.icndb.com/jokes/random/', true);
+		request.open('GET', 'https://api.icndb.com/jokes/random/', true);
 		request.send(null);
 	request.onload = function(){
 		
