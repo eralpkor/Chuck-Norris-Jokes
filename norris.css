@@ -44,15 +44,16 @@ button{
 	font-weight: 700;
 	letter-spacing: 1px;
 	font-size: inherit;
-	transition: all 0.4s;
-	-webkit-transition: background 0.8s;
-	-moz-transition: background 0.8s;
 	cursor: pointer;
 	cursor: hand;
 	outline: none;
 }
 .button:hover {
-	color: #F5F5F5
+	color: #F5F5F5;
+	transition: all 0.4s;
+	-webkit-transition: color 0.8s;
+	-moz-transition: color 0.8s;
+		
 }
 @media screen and (max-width: 400px){
      h1{
