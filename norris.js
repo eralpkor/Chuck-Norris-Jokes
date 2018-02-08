@@ -1,8 +1,8 @@
-var quotes = document.getElementById("quotes");
-// var button = document.querySelector("button");
+// @Author 'Eralp Korucubasi
+// Date today
 
 function getQuote() {
-	
+	var quotes = document.getElementById("quotes");
 	var request = new XMLHttpRequest();
 		request.open('GET', 'https://api.icndb.com/jokes/random/', true);
 		request.send(null);
